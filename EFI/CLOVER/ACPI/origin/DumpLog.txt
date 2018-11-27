@@ -1,0 +1,189 @@
+5:178  1:990  Found BIOS RSDP at FBE00
+5:178  0:000  Printing ACPI tables from RSDP FBE00 ...
+5:178  0:000   FBE00: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:178  0:000    (Xsdt: D7FC4188, Rsdt: D7FC40C4)
+5:178  0:000    D7FC4188: 'XSDT', 'SLIC-BPC', Rev: 1, Len: 212
+5:178  0:000    D7FC40C4: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 124
+5:178  0:000    Tables in Xsdt: 22
+5:178  0:000    0. D7FF4000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 268
+5:178  0:000        (Dsdt: D7FD1000, Facs: D7F6C000, XDsdt: D7FD1000, XFacs: 0)
+5:178  0:000        D7FD1000: 'DSDT', '829A', Rev: 2, Len: 129821
+5:180  0:001        D7F6C000: 'FACS', Ver: 2, Len: 64
+5:180  0:000    1. D7FFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+5:180  0:000    2. D7F79000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+5:180  0:000    3. D7FF8000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12369
+5:180  0:000    4. D7FF7000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+5:180  0:000    5. D7FF6000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+5:180  0:000    6. D7FF5000: 'WSMT', '829A', Rev: 1, Len: 40
+5:180  0:000    7. D7FF3000: 'HPET', '829A', Rev: 1, Len: 56
+5:180  0:000    8. D7FF2000: 'APIC', '829A', Rev: 3, Len: 300
+5:180  0:000    9. D7FF1000: 'MCFG', '829A', Rev: 1, Len: 60
+5:180  0:000    10. D7FD0000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 444
+5:180  0:000    11. D7FCF000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1844
+5:180  0:000    12. D7FCD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+5:180  0:000    13. D7FCC000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511
+5:180  0:000    14. D7FCB000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+5:180  0:000    15. D7FCA000: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+5:180  0:000    16. D7FC9000: 'SSDT', 'EInkApp', Rev: 1, Len: 838
+5:180  0:000    17. D7FC8000: 'DBGP', '', Rev: 1, Len: 52
+5:180  0:000    18. D7FC7000: 'DBG2', '', Rev: 0, Len: 84
+5:180  0:000    19. D7FC6000: 'ASF!', ' UYA', Rev: 32, Len: 160
+5:180  0:000    20. D7FC5000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+5:180  0:000    21. D7FFD000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+5:180  0:000    Tables in Rsdt: 22
+5:180  0:000    0. D7FF4000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 268
+5:180  0:000        (Dsdt: D7FD1000, Facs: D7F6C000, XDsdt: D7FD1000, XFacs: 0)
+5:180  0:000        D7FD1000: 'DSDT', '829A', Rev: 2, Len: 129821
+5:182  0:001        D7F6C000: 'FACS', Ver: 2, Len: 64
+5:182  0:000    1. D7FFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+5:182  0:000    2. D7F79000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+5:182  0:000    3. D7FF8000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12369
+5:182  0:000    4. D7FF7000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+5:182  0:000    5. D7FF6000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+5:182  0:000    6. D7FF5000: 'WSMT', '829A', Rev: 1, Len: 40
+5:182  0:000    7. D7FF3000: 'HPET', '829A', Rev: 1, Len: 56
+5:182  0:000    8. D7FF2000: 'APIC', '829A', Rev: 3, Len: 300
+5:182  0:000    9. D7FF1000: 'MCFG', '829A', Rev: 1, Len: 60
+5:182  0:000    10. D7FD0000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 444
+5:182  0:000    11. D7FCF000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1844
+5:182  0:000    12. D7FCD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+5:182  0:000    13. D7FCC000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511
+5:182  0:000    14. D7FCB000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+5:182  0:000    15. D7FCA000: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+5:182  0:000    16. D7FC9000: 'SSDT', 'EInkApp', Rev: 1, Len: 838
+5:182  0:000    17. D7FC8000: 'DBGP', '', Rev: 1, Len: 52
+5:182  0:000    18. D7FC7000: 'DBG2', '', Rev: 0, Len: 84
+5:182  0:000    19. D7FC6000: 'ASF!', ' UYA', Rev: 32, Len: 160
+5:182  0:000    20. D7FC5000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+5:182  0:000    21. D7FFD000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+5:182  0:000  Found UEFI Acpi 2.0 RSDP at D7FFE014
+5:182  0:000  Saving ACPI tables from RSDP D7FFE014 to EFI\CLOVER\ACPI\origin ...
+5:182  0:000   D7FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.amlnot written Success
+7:106  1:923  
+7:106  0:000    (Xsdt: D7FC4188, Rsdt: D7FC40C4)
+7:106  0:000    D7FC4188: 'XSDT', 'SLIC-BPC', Rev: 1, Len: 212 -> XSDT.amlnot written Success
+8:201  1:095  
+8:201  0:000    D7FC40C4: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 124 -> RSDT.amlnot written Success
+9:290  1:089  
+9:290  0:000    Tables in Xsdt: 22
+9:290  0:000    0. D7FF4000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 268 -> FACP.amlnot written Success
+10:595  1:304  
+10:595  0:000        (Dsdt: D7FD1000, Facs: D7F6C000, XDsdt: D7FD1000, XFacs: 0)
+10:595  0:000        D7FD1000: 'DSDT', '829A', Rev: 2, Len: 129821 -> DSDT.amlnot written Success
+11:712  1:116  
+11:713  0:001        D7F6C000: 'FACS', Ver: 2, Len: 64 -> FACS.amlnot written Success
+12:809  1:095  
+12:809  0:000    1. D7FFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 298 -> SSDT-0-ShmTable.amlnot written Success
+14:109  1:300  
+14:109  0:000    2. D7F79000: 'UEFI', 'EDK2', Rev: 1, Len: 66 -> UEFI.amlnot written Success
+15:206  1:096  
+15:206  0:000    3. D7FF8000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12369 -> SSDT-1-SaSsdt.amlnot written Success
+16:510  1:303  
+16:510  0:000    4. D7FF7000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478 -> SSDT-2-PerfTune.amlnot written Success
+17:812  1:302  
+17:812  0:000    5. D7FF6000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85 -> MSDM.amlnot written Success
+18:902  1:089  
+18:902  0:000    6. D7FF5000: 'WSMT', '829A', Rev: 1, Len: 40 -> WSMT.amlnot written Success
+20:210  1:308  
+20:210  0:000    7. D7FF3000: 'HPET', '829A', Rev: 1, Len: 56 -> HPET.amlnot written Success
+21:299  1:088  
+21:299  0:000    8. D7FF2000: 'APIC', '829A', Rev: 3, Len: 300 -> APIC.amlnot written Success
+22:393  1:094  
+22:393  0:000    9. D7FF1000: 'MCFG', '829A', Rev: 1, Len: 60 -> MCFG.amlnot written Success
+23:698  1:304  
+23:698  0:000    10. D7FD0000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 444 -> SSDT-3-Sata0Ide.amlnot written Success
+24:792  1:093  
+24:792  0:000    11. D7FCF000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1844 -> SSDT-4-PtidDevc.amlnot written Success
+25:884  1:092  
+25:884  0:000    12. D7FCD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-5-CpuSsdt.amlnot written Success
+27:395  1:511   (Found hidden SSDT 7 pcs)
+27:395  0:000        * D7D7D198: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1881  53 53 44 54 59 07 00 00 02 B3 50 6D 52 65 66 00 Internal length = 1881not written Success
+28:483  1:088   -> SSDT-x5_0-Cpu0Ist.aml
+28:483  0:000        * D7C97018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 30 50 6D 52 65 66 00 Internal length = 3348not written Success
+29:576  1:092   -> SSDT-x5_1-ApIst.aml
+29:576  0:000        * D7C98698: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 17 50 6D 52 65 66 00 Internal length = 1023not written Success
+30:877  1:301   -> SSDT-x5_2-Cpu0Cst.aml
+30:877  0:000        * D7C96018: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 778not written Success
+32:193  1:315   -> SSDT-x5_3-ApCst.aml
+32:193  0:000        * D7D7DF18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 83 50 6D 52 65 66 00 Internal length = 186not written Success
+33:501  1:307   -> SSDT-x5_4-Cpu0Hwp.aml
+33:501  0:000        * D7C96418: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 86 50 6D 52 65 66 00 Internal length = 791not written Success
+34:593  1:091   -> SSDT-x5_5-ApHwp.aml
+34:593  0:000        * D7C98018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 8B 50 6D 52 65 66 00 Internal length = 1576not written Success
+35:685  1:092   -> SSDT-x5_6-HwpLvt.aml
+35:685  0:000  
+35:685  0:000    13. D7FCC000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511 -> SSDT-6-CtdpB.amlnot written Success
+37:198  1:512  
+37:198  0:000    14. D7FCB000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-7-HdaDsp.amlnot written Success
+39:005  1:807  
+39:005  0:000    15. D7FCA000: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-8-sensrhub.amlnot written Success
+40:108  1:102  
+40:108  0:000    16. D7FC9000: 'SSDT', 'EInkApp', Rev: 1, Len: 838 -> SSDT-9-EInkApp.amlnot written Success
+41:425  1:317  
+41:425  0:000    17. D7FC8000: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.amlnot written Success
+42:531  1:105  
+42:531  0:000    18. D7FC7000: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.amlnot written Success
+43:635  1:103  
+43:635  0:000    19. D7FC6000: 'ASF!', ' UYA', Rev: 32, Len: 160 -> ASF!.amlnot written Success
+44:947  1:312  
+44:947  0:000    20. D7FC5000: 'FPDT', 'EDK2', Rev: 1, Len: 68 -> FPDT.amlnot written Success
+46:053  1:105  
+46:053  0:000    21. D7FFD000: 'BGRT', 'EDK2', Rev: 1, Len: 56 -> BGRT.amlnot written Success
+47:374  1:320  
+47:374  0:000    Tables in Rsdt: 22
+47:374  0:000    0. D7FF4000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 268
+47:374  0:000        (Dsdt: D7FD1000, Facs: D7F6C000, XDsdt: D7FD1000, XFacs: 0)
+47:374  0:000        D7FD1000: 'DSDT', '829A', Rev: 2, Len: 129821
+47:376  0:001        D7F6C000: 'FACS', Ver: 2, Len: 64
+47:376  0:000    1. D7FFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+47:376  0:000    2. D7F79000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+47:376  0:000    3. D7FF8000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12369
+47:376  0:000    4. D7FF7000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+47:376  0:000    5. D7FF6000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+47:376  0:000    6. D7FF5000: 'WSMT', '829A', Rev: 1, Len: 40
+47:376  0:000    7. D7FF3000: 'HPET', '829A', Rev: 1, Len: 56
+47:376  0:000    8. D7FF2000: 'APIC', '829A', Rev: 3, Len: 300
+47:376  0:000    9. D7FF1000: 'MCFG', '829A', Rev: 1, Len: 60
+47:376  0:000    10. D7FD0000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 444
+47:376  0:000    11. D7FCF000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1844
+47:376  0:000    12. D7FCD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+47:376  0:000    13. D7FCC000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511
+47:376  0:000    14. D7FCB000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+47:376  0:000    15. D7FCA000: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+47:376  0:000    16. D7FC9000: 'SSDT', 'EInkApp', Rev: 1, Len: 838
+47:376  0:000    17. D7FC8000: 'DBGP', '', Rev: 1, Len: 52
+47:376  0:000    18. D7FC7000: 'DBG2', '', Rev: 0, Len: 84
+47:376  0:000    19. D7FC6000: 'ASF!', ' UYA', Rev: 32, Len: 160
+47:376  0:000    20. D7FC5000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+47:376  0:000    21. D7FFD000: 'BGRT', 'EDK2', Rev: 1, Len: 56
+47:376  0:000  Found UEFI Acpi 1.0 RSDP at D7FFE000
+47:376  0:000  Printing ACPI tables from RSDP D7FFE000 ...
+47:376  0:000   D7FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+47:376  0:000    (Rsdt: D7FC4000)
+47:376  0:000    D7FC4000: 'RSDT', 'SLIC-BPC', Rev: 1, Len: 124
+47:376  0:000    Tables in Rsdt: 22
+47:376  0:000    0. D7FF4000: 'FACP', 'SLIC-BPC', Rev: 5, Len: 268
+47:376  0:000        (Dsdt: D7FD1000, Facs: D7F6C000, XDsdt: D7FD1000, XFacs: 0)
+47:376  0:000        D7FD1000: 'DSDT', '829A', Rev: 2, Len: 129821
+47:377  0:001        D7F6C000: 'FACS', Ver: 2, Len: 64
+47:377  0:000    1. D7FFC000: 'SSDT', 'ShmTable', Rev: 2, Len: 298
+47:377  0:000    2. D7F79000: 'UEFI', 'EDK2', Rev: 1, Len: 66
+47:377  0:000    3. D7FF8000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12369
+47:377  0:000    4. D7FF7000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+47:377  0:000    5. D7FF6000: 'MSDM', 'SLIC-BPC', Rev: 3, Len: 85
+47:377  0:000    6. D7FF5000: 'WSMT', '829A', Rev: 1, Len: 40
+47:377  0:000    7. D7FF3000: 'HPET', '829A', Rev: 1, Len: 56
+47:377  0:000    8. D7FF2000: 'APIC', '829A', Rev: 3, Len: 300
+47:377  0:000    9. D7FF1000: 'MCFG', '829A', Rev: 1, Len: 60
+47:377  0:000    10. D7FD0000: 'SSDT', 'Sata0Ide', Rev: 2, Len: 444
+47:377  0:000    11. D7FCF000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1844
+47:377  0:000    12. D7FCD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+47:377  0:000    13. D7FCC000: 'SSDT', 'CtdpB', Rev: 2, Len: 2511
+47:377  0:000    14. D7FCB000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+47:377  0:000    15. D7FCA000: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+47:377  0:000    16. D7FC9000: 'SSDT', 'EInkApp', Rev: 1, Len: 838
+47:377  0:000    17. D7FC8000: 'DBGP', '', Rev: 1, Len: 52
+47:377  0:000    18. D7FC7000: 'DBG2', '', Rev: 0, Len: 84
+47:377  0:000    19. D7FC6000: 'ASF!', ' UYA', Rev: 32, Len: 160
+47:377  0:000    20. D7FC5000: 'FPDT', 'EDK2', Rev: 1, Len: 68
+47:377  0:000    21. D7FFD000: 'BGRT', 'EDK2', Rev: 1, Len: 56
