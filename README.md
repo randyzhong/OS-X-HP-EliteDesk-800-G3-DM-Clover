@@ -43,7 +43,7 @@ Then insure:
 
 #### Advanced -> Built-in Device Options
 - Disable **Wake on LAN**
-- Set Video memory size to **64MB** or larger.
+- Set Video memory size to **64MB** or larger
 - Disable **LAN/WLAN Auto Switching**
 - Disable **Wake on WLAN**
 
@@ -74,4 +74,4 @@ Press **F10** to save changes.
 - XHCI-unsupported.kext (0.9.2)
 
 ## Known Issues:
-- Audio codec CX20632 is not supported yet.
+- Audio codec CX20632 is not supported yet, using VoodooHDA instead.
