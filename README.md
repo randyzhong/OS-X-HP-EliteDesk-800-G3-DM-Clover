@@ -20,10 +20,47 @@ Full specs you can get from [HP Website](https://support.hp.com/us-en/document/c
 ### Configure BIOS Settings
 To start, set BIOS to defaults.
 Then insure:
-- Legacy Support Enable and Secure Boot Disable
-- Uncheck Fast boot
-- Enable UEFI boot
-- IGPU graphics memory set to 64mb or above
-- Disable "LAN/WLAN switching"
-- Disable "Extended Idle Power States"
-- Disable "Wake on LAN" and "Wake on USB"
+#### Advanced -> Boot Options
+- Enable **USB Storage Boot**
+- Disable **Fast Boot**
+- Enable **UEFI Boot**
+- Disable **Legacy Boot**
+#### Advanced -> Secure Boot Configuration
+- Select **Legacy Support Enable and Secure Boot Disable**
+- Uncheck **Enable MS UEFI CA key** if you don't use Windows
+#### Advanced -> System Options
+- Disable **Virtualization Technology (VTx)**
+- Disable **Virtualization Technology for Directed I/O (VTd)**
+- Enable **M.2 SSD** if you're using a NVME SSD
+- Uncheck **M.2 WLAN/BT** if you're using a Intel 8265NGW or other unsupported card
+- Check **Allow PCIe/PCI SERR# Interrupt** (Uncheck it you have issues)
+
+#### Advanced -> Built-in Device Options
+- Disable **Wake on LAN**
+- Set Video memory size to **64MB** or larger.
+- Disable **LAN/WLAN Auto Switching**
+- Disable **Wake on WLAN**
+
+#### Advanced -> Port Options
+- Enable **all** if no specific reasons.
+
+#### Advanced -> Power Management Options
+- Disable **Extended Idle Power States**
+
+
+### Installation
+
+### Tested OS
+- macOS High Sierra 10.13.6 
+
+### Clover
+- Clover r4726
+
+### Kexts:
+- FakePCIID_XHCIMux.kext (1.3.15) 
+- FakeSMC.kext (6.26-357-gceb835ea.1800)
+- IntelMausiEthernet.kext (2.4.1d1)
+- Lilu.kext (1.2.8)
+- VoodooHDA.kext (2.9.1)
+- WhateverGreen.kext (1.2.4)
+- XHCI-unsupported.kext (0.9.2)
