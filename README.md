@@ -49,6 +49,7 @@ Then insure:
 
 
 ### Installation
+- To be updated
 
 ### Tested OS
 - macOS High Sierra 10.13.6 
@@ -56,7 +57,7 @@ Then insure:
 ### Clover
 - Clover r4726
 
-### Kexts:
+### Kexts
 - FakePCIID_XHCIMux.kext (1.3.15) 
 - FakeSMC.kext (6.26-357-gceb835ea.1800)
 - IntelMausiEthernet.kext (2.4.1d1)
@@ -64,3 +65,6 @@ Then insure:
 - VoodooHDA.kext (2.9.1)
 - WhateverGreen.kext (1.2.4)
 - XHCI-unsupported.kext (0.9.2)
+
+### Known Issues:
+- Audio codec CX20632 is not supported yet.
