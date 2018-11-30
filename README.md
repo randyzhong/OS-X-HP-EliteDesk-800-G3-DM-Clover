@@ -74,4 +74,5 @@ Press **F10** to save changes.
 - XHCI-unsupported.kext (0.9.2)
 
 ## Known Issues:
-- Audio codec CX20632 is not supported yet, using VoodooHDA instead.
+- Audio codec CX20632 is not supported yet, using VoodooHDA instead
+- Sleep is not working (Reboot or blackscreen when trying to wake it)
