@@ -60,6 +60,7 @@ Press **F10** to save changes.
 
 ### Tested OS
 - macOS High Sierra 10.13.6 
+- macOS Mojave 10.14.1
 
 ### Clover
 - Clover r4726
