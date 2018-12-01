@@ -66,6 +66,7 @@ Press **F10** to save changes.
 - Clover r4726
 
 ### Kexts
+- EFICheckDisabler.kext (0.5)
 - FakePCIID_XHCIMux.kext (1.3.15) 
 - FakeSMC.kext (6.26-357-gceb835ea.1800)
 - IntelMausiEthernet.kext (2.4.1d1)
