@@ -13,7 +13,7 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<false/>
+				<true/>
 				<key>DeleteUnused</key>
 				<true/>
 				<key>FixHPET</key>
@@ -205,7 +205,7 @@
 				<key>Comment</key>
 				<string>change 15 port limit to 26 in XHCI kext (100-Series-10.12)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				g710////EA==
@@ -223,7 +223,7 @@
 				<key>Comment</key>
 				<string>10.13+- Glitch</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				AQAAdSI=
@@ -237,24 +237,6 @@
 				<key>Replace</key>
 				<data>
 				AQAA6yI=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>change AD198B for Conexant 20672</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				ixnUEQ==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				mFDxFA==
 				</data>
 			</dict>
 		</array>
@@ -275,8 +257,6 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>DAB17185-5919-5563-96FD-FB358B5B02AF</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>

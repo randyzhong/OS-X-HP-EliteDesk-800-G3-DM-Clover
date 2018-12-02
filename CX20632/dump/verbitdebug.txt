@@ -1,0 +1,101 @@
+ 
+Blacklist:
+411111f0 400000f0 CD at Int ATAPI
+Removed Nodes: 
+Checking 71c Associations
+
+Current Associations
+ 01871cf0 = f 
+ 01971c40 = 4 
+ 01a71c20 = 2 
+ 01b71cf0 = f 
+ 01c71cd0 = d 
+ 01d71cf0 = f 
+ 01e71cf0 = f 
+ 01f71c10 = 1 
+ 02071cf0 = f 
+ 02171cf0 = f 
+ 02671cf0 = f 
+
+  Used associations = f 4 2 f d f f 1 f f f
+Unused associations = 3 5 6 7 8 9 a b c e
+
+Correcting duplicate associations
+
+Checking if f already exists in: 4 2 f d f f 1 f f f 
+   duplicate found - Is this the first time we've seen this association?
+   yes - ignoring
+Checking if 4 already exists in: f 2 f d f f 1 f f f 
+   no duplicate found
+Checking if 2 already exists in: f 4 f d f f 1 f f f 
+   no duplicate found
+Checking if f already exists in: f 4 2 d f f 1 f f f 
+   duplicate found - Is this the first time we've seen this association?
+   no - replacing association with: 3
+Checking if d already exists in: f 4 2 3 f f 1 f f f 
+   no duplicate found
+Checking if f already exists in: f 4 2 3 d f 1 f f f 
+   duplicate found - Is this the first time we've seen this association?
+   no - replacing association with: 5
+Checking if f already exists in: f 4 2 3 d 5 1 f f f 
+   duplicate found - Is this the first time we've seen this association?
+   no - replacing association with: 6
+Checking if 1 already exists in: f 4 2 3 d 5 6 f f f 
+   no duplicate found
+Checking if f already exists in: f 4 2 3 d 5 6 1 f f 
+   duplicate found - Is this the first time we've seen this association?
+   no - replacing association with: 7
+Checking if f already exists in: f 4 2 3 d 5 6 1 7 f 
+   duplicate found - Is this the first time we've seen this association?
+   no - replacing association with: 8
+Checking if f already exists in: f 4 2 3 d 5 6 1 7 8 
+   duplicate found - Is this the first time we've seen this association?
+   no - replacing association with: 9
+
+New 71c Associations
+ Before      After
+--------------------------------------------------
+01871cf0   01871cf0  01871d01  01871ef0  01871f40
+01971c40   01971c40  01971d10  01971e21  01971f02
+01a71c20   01a71c20  01a71d10  01a71ea1  01a71f02
+01b71cf0   01b71c30  01b71d01  01b71ef0  01b71f40
+01c71cd0   01c71cd0  01c71d10  01c71e21  01c71f02
+01d71cf0   01d71c50  01d71d01  01d71ef0  01d71f40
+01e71cf0   01e71c60  01e71d01  01e71ef0  01e71f40
+01f71c10   01f71c10  01f71d01  01f71e17  01f71f92
+02071cf0   02071c70  02071d01  02071ef0  02071f40
+02171cf0   02171c80  02171d01  02171ef0  02171f40
+02671cf0   02671c90  02671d01  02671ef0  02671f40
+
+Reset 71d Misc to 0
+New 71d Associations
+ Before                After
+--------------------------------------------------
+01871d01   01871cf0  01871d00  01871ef0  01871f40
+01971d10   01971c40  01971d10  01971e21  01971f02
+01a71d10   01a71c20  01a71d10  01a71ea1  01a71f02
+01b71d01   01b71c30  01b71d00  01b71ef0  01b71f40
+01c71d10   01c71cd0  01c71d10  01c71e21  01c71f02
+01d71d01   01d71c50  01d71d00  01d71ef0  01d71f40
+01e71d01   01e71c60  01e71d00  01e71ef0  01e71f40
+01f71d01   01f71c10  01f71d00  01f71e17  01f71f92
+02071d01   02071c70  02071d00  02071ef0  02071f40
+02171d01   02171c80  02171d00  02171ef0  02171f40
+02671d01   02671c90  02671d00  02671ef0  02671f40
+
+Correct 71f 02 FP to 01
+New 71f Associations
+ Before                                    After
+--------------------------------------------------
+01871d01   01871cf0  01871d00  01871ef0  01871f40
+01971d10   01971c40  01971d10  01971e21  01971f01
+01a71d10   01a71c20  01a71d10  01a71ea1  01a71f01
+01b71d01   01b71c30  01b71d00  01b71ef0  01b71f40
+01c71d10   01c71cd0  01c71d10  01c71e21  01c71f01
+01d71d01   01d71c50  01d71d00  01d71ef0  01d71f40
+01e71d01   01e71c60  01e71d00  01e71ef0  01e71f40
+01f71d01   01f71c10  01f71d00  01f71e17  01f71f91
+02071d01   02071c70  02071d00  02071ef0  02071f40
+02171d01   02171c80  02171d00  02171ef0  02171f40
+02671d01   02671c90  02671d00  02671ef0  02671f40
+ 

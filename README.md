@@ -12,7 +12,7 @@ Here is my EliteDesk 800 G3 DM specs:
 
 ### Specs:
 - CPU: Intel® Core i7-7700 @ 3.60 GHz processor (65 W model only)
-- GPU: Integrated Intel® HD Graphics 630
+- GPU: Integrated Intel® HD Graphics 630 (3 DisplayPorts)
 - Memory: 2 x 4GB Samsung DDR4-2400
 - Storage: Intel® 256 GB SSD, PCI-E Gen3 x 4, Turbo Drive G2 TLC SSD
 - LAN: Intel® I219LM Gigabit Network Connection LOM
@@ -63,14 +63,19 @@ Press **F10** to save changes.
 - macOS Mojave 10.14.1
 
 ### Clover
-- Clover r4726
+- Clover r4701.RM (Build by RehabMan)
 
 ### Kexts
 - EFICheckDisabler.kext (0.5)
 - FakePCIID_XHCIMux.kext (1.3.15) 
 - FakeSMC.kext (6.26-357-gceb835ea.1800)
+  - ACPISensors.kext (6.26-357-gceb835ea.1800)
+  - CPUSensors.kext (6.26-357-gceb835ea.1800)
+  - GPUSensors.kext (6.26-357-gceb835ea.1800)
+  - LPCSensors.kext (6.26-357-gceb835ea.1800)
 - IntelMausiEthernet.kext (2.4.1d1)
 - Lilu.kext (1.2.8)
+  - Added Resources/Headers and Resources/Library folders which are required to build with AppleALC in Xcode
 - VoodooHDA.kext (2.9.1)
 - WhateverGreen.kext (1.2.4)
 - XHCI-unsupported.kext (0.9.2)
