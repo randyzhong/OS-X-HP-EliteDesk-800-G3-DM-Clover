@@ -1,4 +1,5 @@
-Update: December 02, 2018
+**Update: December 02, 2018**
+
 I tried to add CX20632 support to AppleALC but failed.
 
 My HP EliteDesk 800 G3 DM is gone so I didn't have chance to do more tests.
