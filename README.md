@@ -76,9 +76,11 @@ Press **F10** to save changes.
   - LPCSensors.kext (6.26-357-gceb835ea.1800)
 - IntelMausiEthernet.kext (2.4.1d1)
 - Lilu.kext (1.4.3)
-- AppleALC.kext (1.4.8)
+- AppleALC.kext (1.4.8) 
+  - **CX20632 is supported by AppleALC (Credit to Halelluja12 & frankiezdh) since v1.4.2, use layout-id 23 here, you can try layout-id 28 if you have issues**
 - WhateverGreen.kext (1.3.8)
 - XHCI-unsupported.kext (0.9.2)
 
 ## Known Issues:
 - Sleep is not working (Reboot or blackscreen when trying to wake it)
+
