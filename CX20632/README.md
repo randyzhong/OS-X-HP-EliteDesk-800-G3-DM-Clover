@@ -1,4 +1,13 @@
-**Update: December 02, 2018**
+**Update: April 12, 2020**
+
+CX20632 is supported by AppleALC (Credit to Halelluja12 & frankiezdh) since v1.4.2
+
+Pull [#457](https://github.com/acidanthera/AppleALC/pull/457) layout-id 28
+
+Pull [#459](https://github.com/acidanthera/AppleALC/pull/459) layout-id 23
+
+
+Update: December 02, 2018
 
 I tried to add CX20632 support to AppleALC but failed.
 
