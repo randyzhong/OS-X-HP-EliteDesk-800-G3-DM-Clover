@@ -61,9 +61,10 @@ Press **F10** to save changes.
 ### Tested OS
 - macOS High Sierra 10.13.6 
 - macOS Mojave 10.14.1
+- macOS Catalina 10.15.4
 
 ### Clover
-- Clover r4701.RM (Build by RehabMan)
+- Clover r5108
 
 ### Kexts
 - EFICheckDisabler.kext (0.5)
@@ -74,12 +75,10 @@ Press **F10** to save changes.
   - GPUSensors.kext (6.26-357-gceb835ea.1800)
   - LPCSensors.kext (6.26-357-gceb835ea.1800)
 - IntelMausiEthernet.kext (2.4.1d1)
-- Lilu.kext (1.2.8)
-  - Added Resources/Headers and Resources/Library folders which are required to build with AppleALC in Xcode
-- VoodooHDA.kext (2.9.1)
-- WhateverGreen.kext (1.2.4)
+- Lilu.kext (1.4.3)
+- AppleALC.kext (1.4.8)
+- WhateverGreen.kext (1.3.8)
 - XHCI-unsupported.kext (0.9.2)
 
 ## Known Issues:
-- Audio codec CX20632 is not supported yet, using VoodooHDA instead
 - Sleep is not working (Reboot or blackscreen when trying to wake it)
