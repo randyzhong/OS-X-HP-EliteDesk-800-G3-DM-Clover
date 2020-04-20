@@ -31,6 +31,16 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>Rename EC0 to EC (USB Power)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>RUMwXw==</data>
+					<key>Replace</key>
+					<data>RUNfXw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>Change HDAS tp HDEF</string>
 					<key>Disabled</key>
 					<false/>
